@@ -1,0 +1,20 @@
+.usr{
+    background-color: aqua;
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    cursor: pointer;
+}
+.pas{
+    background-color: rgb(134, 102, 102);
+    height: 200px;
+    width: 300px;
+    align-content: center;
+    cursor: pointer;  
+}
+.pas:hover{
+    background-color: rgb(183, 109, 18);
+}
+.usr:hover{
+    background-color: blue;
+}
