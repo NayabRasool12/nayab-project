@@ -1,3 +1,10 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
 .usr{
     background-color: aqua;
     height: 200px;
@@ -9,8 +16,8 @@
     background-color: rgb(134, 102, 102);
     height: 200px;
     width: 300px;
-    align-content: center;
     cursor: pointer;  
+    display: grid;
 }
 .pas:hover{
     background-color: rgb(183, 109, 18);
