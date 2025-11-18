@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CART WEB APPLICATION </title>
+    <link rel="stylesheet" href="index.css"/>
 </head>
-<body>
-   <button onclick="console.log(`show qunatity:${quantity}`)">
+<body >
+   <button class="btn"
+    onclick="console.log(`show qunatity:${quantity}`)">
     show Quantity
    </button>
-   <button onclick="
+   <button class="add" onclick="
     quantity = quantity + 1
     console.log(`show qunatity:${quantity}`)">
     Add to cart
     </button>
-   <button onclick="
+   <button class="on" onclick="
     quantity = quantity + 2
     console.log(`show qunatity:${quantity}`)">
     +2
    </button>
-   <button onclick="
+   <button class="click" onclick="
    quantity = quantity + 3
    console.log(`show qunatity:${quantity}`)">
     +3
    </button>
-   <button onclick="
+   <button class="res" onclick="
    console.log(' cart was resert : 0')
    quantity = 0;
    console.log(`show qunatity:${quantity}`)">

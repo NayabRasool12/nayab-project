@@ -1,0 +1,31 @@
+.btn{
+    background-color: rgb(178, 39, 39);
+    color: aliceblue;
+    border-radius: 20px;
+    border-color: none;
+
+}
+.add{
+    background-color: rgb(255, 127, 197);
+    color: aliceblue;
+    border-radius: 20px;
+    border-color: none;
+}
+.on{
+   background-color: rgb(178, 39, 39);
+    color: aliceblue;
+    border-radius: 20px;
+    border-color: none;
+}
+.click{
+     background-color: rgb(178, 39, 39);
+    color: aliceblue;
+    border-radius: 20px;
+    border-color: none;
+}
+.res{
+ background-color: rgb(231, 3, 3);
+    color: aliceblue;
+    border-radius: 20px;
+    border-color: none;
+}
